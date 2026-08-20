@@ -31,11 +31,11 @@ models:
   dbt_learn_repos:
     # Config indicated by + and applies to all files under models/example/
     staging:
-      +database: SILVER_DB
+      +database: SNOWFLAKE_DT
       +materialized: view
 
     cleansing:
-      +database: SILVER_DB
+      +database: SNOWFLAKE_DT
       +schema: CLEANSING
       +materialized: table
 

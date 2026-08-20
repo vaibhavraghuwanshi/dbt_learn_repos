@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: ecommerce
+    database: SNOWFLAKE_DT_NEW
+    schema: PUBLIC
+    tables:
+      - name: raw_orders
+        description: "This table contains raw order data."
+
+      - name: raw_customers
+        description: "This table contains raw customer data."

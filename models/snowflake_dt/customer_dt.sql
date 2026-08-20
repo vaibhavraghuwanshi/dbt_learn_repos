@@ -1,6 +1,6 @@
 {{config(materialized='dynamic_table', 
         snowflake_warehouse='COMPUTE_WH',
-        database='SNOWFLAKE_DT',
+        database='SNOWFLAKE_DT_NEW',
         schema='TRANSFORM_DT',
         target_lag = 'DOWNSTREAM'
         )}}
